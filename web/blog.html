@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEBSITE</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<section id="header">
+    <a href="#" ><img src="img/logo4.png" class="logo" alt=""></a>
+<div>
+    <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a class="active" href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+        <a href="#" id="close"><i class="far fa-times"></i></a>
+    </ul>
+</div>
+<diV id="mobile">
+    <a href=""><i class="far fa-shopping-bag"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+</diV>
+</section>
+<section id="page-header" class="blog-header">
+    <h2>#readmore</h2>
+    <p>Read all case studies about our products!</p>
+</section>
+<section id="blog">
+    <div class="blog-grid">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/blog2.jpg" alt="The Watch">
+            </div>
+            <div class="blog-details">
+                <h4>The Watch</h4>
+                <p>
+                    A watch is a timekeeping device worn on the wrist or carried in a pocket. Traditionally, watches are designed to display the time
+                    but many modern watches offer additional features such as alarms, timers, calendars, and more.
+                </p>
+                <a href="#">Continue Reading</a>
+                <p class="blog-date">13/05</p>
+            </div>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/blog3.jpg" alt="New Summer Collection">
+            </div>
+            <div class="blog-details">
+                <h4>New Summer Collection</h4>
+                <p>
+                    Analog watches typically have a face with hour and minute hands 
+                    (and sometimes a second hand) that rotate around a dial marked with numerals or indices to indicate the time. 
+                </p>
+                <a href="#">Continue Reading</a>
+                <p class="blog-date">12/05</p>
+            </div>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/blog4.jpg" alt="Fall Fashion Trends">
+            </div>
+            <div class="blog-details">
+                <h4>Fall Fashion Trends</h4>
+                <p>
+                    In addition to basic timekeeping functions, many watches today have advanced features such as GPS, 
+                    heart rate monitoring, and fitness tracking
+                </p>
+                <a href="#">Continue Reading</a>
+                <p class="blog-date">10/05</p>
+            </div>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/blog1.jpg" alt="The Classic Trench Coat">
+            </div>
+            <div class="blog-details">
+                <h4>The Classic Trench Coat</h4>
+                <p>
+                    Smartwatches are a type of watch that can connect to a smartphone and provide a wide range of features, 
+                    including notifications, health tracking, and app integration.
+                </p>
+                <a href="#">Continue Reading</a>
+                <p class="blog-date">08/05</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="pageination" class="section-p1">
+<a href="#">1</a>
+<a href="#">2</a>
+<a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+</section>
+<section id="newsletter" class="section-p1 section-m1">
+<div class="newstext">
+<h4>Sign Up For Newsletter</h4>
+<p>Get E-mail updates about our latest shop and <span> special offers </span></p>
+</div>
+<div class="form">
+<input type="text" placeholder="Your email address">
+<button class="normal">Sign Up</button>
+</div>
+</section>
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="img/logo4.png" alt="">
+<h4>Contact</h4>
+<p><strong>Address:</strong> 4 Truong Dinh, Hoang Mai ,Ha Noi </p>
+<p><strong>Phone:</strong> 0564323708 </p>
+<p><strong>Hours:</strong> 7:00 - 16:00,Mon - Sat </p>
+<div class="follow">
+    <h4>Follow Us</h4>
+    <div class="icon">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+</div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivary Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="img/pay/app.jpg" alt="">
+            <img src="img/pay/play.jpg" alt="">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="">
+    </div>
+</footer>
+<div class="copyright">
+    <p>@NguyenThanhSon</p>
+</div>
+        <script src="script.js">
+         function adjustLayout() {
+    const blogElement = document.getElementById('blog');
+    
+    if (blogElement) {
+        const blogBoxes = blogElement.querySelectorAll('.blog-box');
+        const containerWidth = blogElement.offsetWidth;
+        let columnCount = 4; 
+        if (containerWidth < 768) {
+            columnCount = 1; 
+        } else if (containerWidth < 992) {
+            columnCount = 2; 
+        } else if (containerWidth < 1200) {
+            columnCount = 3; 
+        } 
+        blogElement.style.gridTemplateColumns = `repeat(${columnCount}, 1fr)`;
+        
+        blogBoxes.forEach(function(blogBox) {
+            const imgElement = blogBox.querySelector('.blog-img img');
+            
+            if (imgElement) {
+                imgElement.style.height = `${blogBox.clientWidth}px`;
+            }
+        });
+    }
+}
+function addHoverEffectToBlogBoxes() {
+    const blogBoxes = document.querySelectorAll('#blog .blog-box');
+
+    blogBoxes.forEach(function(blogBox) {
+        blogBox.addEventListener('mouseover', function() {
+            blogBox.style.transform = 'translateY(-10px)';
+        });
+        blogBox.addEventListener('mouseout', function() {
+            blogBox.style.transform = 'translateY(0)';
+        });
+    });
+}
+adjustLayout();
+addHoverEffectToBlogBoxes();
+
+window.addEventListener('resize', function() {
+    adjustLayout();
+});
+        </script>
+    </body>
+
+</html>
